@@ -361,7 +361,7 @@ def mood_to_color(energy: float, valence: float,
                   randomness: float = 0.35,
                   palette: str = "club") -> list:
     """Energy + Valence → Hue CIE XY"""
-    global _hue_offset, _rainbow_pos
+    global _rainbow_pos
 
     base_hue = mood_to_base_hue(energy, valence, palette)
     saturation = 0.85 + energy * 0.15
