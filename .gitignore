@@ -1,0 +1,4 @@
+.spotify_token.json
+hue_spotify_sync.py
+config.json
+venv/*
