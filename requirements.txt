@@ -1,0 +1,4 @@
+aubio
+sounddevice
+aiohttp
+numpy
